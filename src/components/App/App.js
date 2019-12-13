@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom';
 import Menu from '../Menu/Menu';
 import Login from '../Login/Login';
 import Map from '../Map/Map';
+import UserProfile from '../UserProfile/UserProfile'
 import './App.css';
 
 export const App = () => {
@@ -16,6 +17,7 @@ export const App = () => {
       <Route exact path='/' component={Menu} />
       <Route exact path='/login' component={Login} />
       <Route exact path='/map' component={Map} />
+      <Route exact path='/userprofile' component={UserProfile} />
        
     </div>
   );
